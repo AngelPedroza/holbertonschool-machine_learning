@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""Matrix Shape"""
+
+
 def get_shape(lst, shape):
     """
     Get the len recursively in a matrix
