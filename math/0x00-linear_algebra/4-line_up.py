@@ -36,10 +36,7 @@ def add_arrays(arr1, arr2):
     if not (isinstance(arr1, list) and isinstance(arr2, list)):
         return None
 
-    if len(arr1) == 0 or len(arr2) == 0:
-        return None
-
-    if matrix_shape(arr1) != matrix_shape(arr2):
+    if len(arr1) != len(arr2):
         return None
 
     final = []
