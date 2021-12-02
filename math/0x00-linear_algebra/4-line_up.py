@@ -33,6 +33,12 @@ def add_arrays(arr1, arr2):
     :param arr2: Array 2
     :return: An array sum
     """
+    if not (isinstance(arr1, list) and isinstance(arr2, list)):
+        return None
+
+    if len(arr1) == 0 or len(arr2) == 0:
+        return None
+
     if matrix_shape(arr1) != matrix_shape(arr2):
         return None
 
